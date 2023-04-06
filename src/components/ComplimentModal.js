@@ -10,7 +10,7 @@ const ComplimentModal = () => {
         isComplimentModalOpen ? 'modal-container isOpen' : 'modal-container'
       }`}>
       <div className='compliment-modal-content'>
-        <h2 id='compliment'>{rights[Math.floor(Math.random() * (rights.length - 1))]}, {compliments[Math.floor(Math.random() * (compliments.length - 1))]}!</h2>
+        <h2 id='compliment'>{rights[Math.floor(Math.random() * (rights.length - 1))]}, fuckin' {compliments[Math.floor(Math.random() * (compliments.length - 1))]}!</h2>
       </div>
     </div>
   )

@@ -177,19 +177,19 @@ const AppProvider = ({ children }) => {
   // Insult&Compliment Modals
   const openInsultModal = () => {
     setIsInsultModalOpen(true);
-    setTimeout(() => setIsInsultModalOpen(false), 1500);
+    setTimeout(() => setIsInsultModalOpen(false), 2000);
     setTimeout(function () {
       document.getElementById("insult").style.visibility = "hidden";
-    }, 1450);
+    }, 1950);
     document.getElementById("insult").style.visibility = "visible";
   };
 
   const openComplimentModal = () => {
     setIsComplimentModalOpen(true);
-    setTimeout(() => setIsComplimentModalOpen(false), 1500);
+    setTimeout(() => setIsComplimentModalOpen(false), 2000);
     setTimeout(function () {
       document.getElementById("compliment").style.visibility = "hidden";
-    }, 1450);
+    }, 1950);
     document.getElementById("compliment").style.visibility = "visible";
   };
 
