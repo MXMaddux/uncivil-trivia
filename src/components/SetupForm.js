@@ -17,7 +17,7 @@ const SetupForm = () => {
             </h2>
             {/* limit */}
             <div className="form-control">
-              <label htmlFor="amount">number of fuckin' questions</label>
+              <label htmlFor="amount">number of questions</label>
               <select
                 name="amount"
                 id="amount"
