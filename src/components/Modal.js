@@ -15,10 +15,10 @@ const Modal = () => {
     if (percentage < 51) {
       return ranks[2];
     }
-    if (percentage < 71) {
+    if (percentage < 75) {
       return ranks[3]
     }
-    if (percentage < 91) {
+    if (percentage < 96) {
       return ranks[4]
     }
     if (percentage < 101) {
