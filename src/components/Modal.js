@@ -3,7 +3,7 @@ import { useGlobalContext } from '../context'
 
 const Modal = () => {
   const { isModalOpen, closeModal, correct, questions } = useGlobalContext()
-  const ranks = ["Fucktard", "Shithead",  "Numb Nuts","Astute Chimp", "Egghead", "Stinkin' Genius"];
+  const ranks = ["Fucktard", "Shit For Brains", "Daft Doofus","Clever for a Chimp", "Rotten Egghead", "Stinkin' Genius"];
   const percentage = ((correct / questions.length) * 100).toFixed(0);
   const showRank = () => {
     if (percentage < 11) {

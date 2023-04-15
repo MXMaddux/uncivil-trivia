@@ -90,7 +90,6 @@ const AppProvider = ({ children }) => {
     "Fartbreath",
     "Cockshiner",
     "Cheesedick",
-    "Fuckface",
     "Knuckle-dragger",
     "Testicle Taster",
     "Shitstick",
