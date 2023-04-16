@@ -330,7 +330,8 @@ Loading
   margin-right: auto;
 }
 .rank {
-  color: var(--clr-primary-5);
+  color: var(--clr-green-dark);
+  font-weight: bold;
 }
 
 .insult-modal-content {
